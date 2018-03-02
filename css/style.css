@@ -764,7 +764,7 @@ opacity: .5; }
     @media only screen and (max-width : 1200px) {
      .navigation { float: none; }
      .hero-title {font-size: 25px; line-height: 40px;}
-     .hero-section {padding-top: 50px; padding-bottom: 50px;}
+     .hero-section {padding-top: 300px; padding-bottom: 220px;}
      .comment-info {padding-left: 100px;}
      .cta-title {font-size: 26px; line-height: 40px;}
      .cta-section {padding-top: 50px; padding-bottom: 50px;}
