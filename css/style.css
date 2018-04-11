@@ -442,7 +442,7 @@ label { }
 /*----------------------------------------------
     5.4 Page Header
 ----------------------------------------------*/
-.page-header { background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url(../images/page-header.jpg) no-repeat center; background-size: cover; margin: 0; border-bottom: none; padding-bottom: 0px; }
+.page-header { background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url(../img/page-header.jpg) no-repeat center; background-size: cover; margin: 0; border-bottom: none; padding-bottom: 0px; }
 .page-caption { padding: 120px 0px; position: relative; z-index: 1; color: #fff; text-align: center; }
 .page-title { color: #fff;  font-size: 40px; font-weight: 400; letter-spacing: -1px; }
 .breadcrumb { }
@@ -759,7 +759,19 @@ opacity: .5; }
 .box-bg-color { background-color: #eddba5; height: 160px; width: 160px; }
 
 /*==========  Non-Mobile First Method  ==========*/
+.slide-block{
+     position: relative;
+      background-color: #46433f;
+     padding: 30px;
+      border-radius: 10px; 
+      margin-bottom: 30px;
+    }
 
+.each-slide{
+display:flex !important;
+justify-content: center;
+align-items: center;
+}
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
      .navigation { float: none; }
